@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<script>
+    function isEmail() {
+     var str = document.getElementById("email").value;
+     var status = document.getElementById("status");
+     var re = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+     if (re.test(str)) status.innerHTML = "Адрес правильный";
+       else status.innerHTML = "Адрес неверный";
+     if(isEmpty(str)) status.innerHTML = "Поле пустое";
+    }
+    function isEmpty(str){
+     return (str == null) || (str.length == 0);
+    }
+</script>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>О нас</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+        <link rel="stylesheet" href="assets/styles.css">
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Гаджеты</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html"><i class="bi-house"></i> Главная</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="products.html"><i class = "bi-bag"></i>Товары</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html"><i class = "bi-file-person"></i>О нас</a>             
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="reviews.html"><i class = "bi-check"></i> Отзывы</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+            </nav>
+                    
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow rounded my-3">
+                        <div class="card-body">
+                            <div>
+                                <img src="assets/img/ship.png" class="avatar" width="100" height="400">
+                            </div>
+                            <div class="avatar-post"><i class="bi-person-circle"></i>Генеральный директор</div>
+                            <div class="avatar-text">Самый целеустремленный человек</div>
+                            <a href="mailto:shipulinru@yandex.ru&cc=mail@htmlacademy.ru?body=Привет, подпишитесь на рассылку">ЖЕНЩИНЫ НАПИШИТЕ ЕМУ!!!!!</a>
+                        </div>
+                    </div> 
+                </div>  
+                <div class="col-md-4">
+                    <div class="card shadow rounded my-3">
+                        <div class="card-body">
+                            <div>
+                                <img src="assets/img/valera.png" class="avatar" width="100" height="400">
+                            </div>
+                            <div class="avatar-post"><i class="bi-chat-heart"></i>Начальник начальства</div>
+                            <div class="avatar-text">Самый самый человек</div>
+                            <a href="mailto:shipulinru@yandex.ru&cc=mail@htmlacademy.ru?body=Привет, подпишитесь на рассылку">ЖЕНЩИНЫ НАПИШИТЕ ЕМУ!!!!!</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow rounded my-3">
+                        <div class="card-body">
+                            <div>
+                                <img src="assets/img/cat.png" class="avatar" width="100" height="400">
+                            </div>
+                            <div class="avatar-post"><i class="bi-emoji-heart-eyes"></i>Директор по мяу</div>
+                            <div class="avatar-text">Самый мяу</div>
+                            <a href="mailto:shipulinru@yandex.ru&cc=mail@htmlacademy.ru?body=Привет, подпишитесь на рассылку">ЖЕНЩИНЫ НАПИШИТЕ ЕМУ!!!!!</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow rounded my-3">
+                        <div class="card-body">
+                            <div>
+                                <img src="assets/img/nuhich.png" class="avatar" width="100" height="400">
+                            </div>
+                            <div class="avatar-post"><i class="bi-heart"></i>Нюхич</div>
+                            <div class="avatar-text">Нюхает</div>
+                            <a href="mailto:shipulinru@yandex.ru&cc=mail@htmlacademy.ru?body=Привет, подпишитесь на рассылку">ЖЕНЩИНЫ НАПИШИТЕ ЕМУ!!!!!</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+                
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
