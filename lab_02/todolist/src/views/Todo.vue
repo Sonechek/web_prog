@@ -93,7 +93,7 @@ export default {
       });
     },
     addTask() {
-      this.current_note.push({
+      this.current_note.tasks.push({
         name: 'Новая задача',
         checked: false,
         isEditMode: false,
