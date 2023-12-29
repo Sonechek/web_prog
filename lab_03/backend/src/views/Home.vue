@@ -2,11 +2,14 @@
 </script>
 
 <template>
-  <div><button class="btn btn-primary" @click="testGet">Тест GET запроса</button></div>
-  <div><button class="btn btn-primary" @click="testPost">Тест POST запроса</button></div>
-  <h1>Это моя компания</h1>
-  <p>Добро пожаловать!<br>Мы занимаемся тем, что создаем сайты, делаем это хорошо и качественно. Далее мы научимся создавать и полноценные веб-приложения!</p>
-  <img src="/assets/img/main.jpg" class="img-fluid">
+  <h1>
+    Гаджет Шоп
+  </h1>
+  <p>
+    Приветствуем в магазине Гаджет Шоп! Здесь вы найдете самые вкусные цены на гаджеты!
+  </p>
+  <img src="assets/img/1.png" class="img-fluid">
+    
   
 </template>
 

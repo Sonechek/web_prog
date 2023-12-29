@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Nothing phone",
+		"description": "Ничего телефон",
+		"price": 35000,
+		"img_url": "/assets/img/nothing.png"
+	},
+	{
+		"name": "Apple watch ultra 2",
+		"description": "Самое обыкновенные часы за недорого",
+		"price": 50000,
+		"img_url": "/assets/img/watch.png"
+	},
+	{
+		"name": "Samsung S23 Ultra",
+		"description": "Стань слоном за сотку",
+		"price": 100000,
+		"img_url": "/assets/img/slon.png"
+	},
+	{
+		"name": "JBL Partybox Encore",
+		"description": "Соседи будут без ума",
+		"price": 36000,
+		"img_url": "/assets/img/jbl.png"
+	},
+	{
+		"name": "Xiaomi Mi Robot Vacuum S10",
+		"description": "Автобус для кота",
+		"price": 18000,
+		"img_url": "/assets/img/robot.png"
+	},
+	{
+		"name": "Apple iPad (9th Gen) Wi-Fi 64 ГБ",
+		"description": "Задизайни круче Лебедева!",
+		"price": 38000,
+		"img_url": "/assets/img/ipad.png"
+	},
+	{
+		"name": "Samsung QE85QN800BUXCE",
+		"description": "В целом не плохой телевизор для дачи, кухни или бабушке в подарок.",
+		"price": 750000,
+		"img_url": "/assets/img/tv.png"
+	},
+	{
+		"name": "MSI Katana B12VFK-463XRU",
+		"description": "Лучше не найти",
+		"price": 90000,
+		"img_url": "/assets/img/katana.png"
+	}
+]
